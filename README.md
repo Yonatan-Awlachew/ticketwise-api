@@ -26,8 +26,15 @@ Docker · GitHub Actions · pgvector · LLM APIs
 
 ## Running locally
 ```bash
+# 1. Create virtual environment
 python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
+
+# 2. Activate virtual environment
+source .venv/bin/activate        # macOS/Linux
+.venv\Scripts\activate        # Windows
+
+# 3. Install dependencies & run (from project root)
+pip install --upgrade pip
 pip install -r requirements.txt
 python -m app.main
 ```
