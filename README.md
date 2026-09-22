@@ -1,6 +1,6 @@
 # Ticketwise API
 
-> 🚧 Status: in development (day 1/30)
+> 🚧 Status: in development (day 2/30)
 
 A backend API for small SaaS support teams: customers open support tickets, agents triage
 and answer them, and AI helps by classifying tickets, drafting replies grounded in the
